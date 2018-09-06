@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Squares and cubes</title>
+<style>
+
+table,tr,td{
+width:60%;
+border: 5px solid; 
+border-spacing:3px;
+border-collapse:collapse;
+padding:5px;
+text-align:center;
+background-color:#dcd4d4;
+}
+
+td:hover{
+background-color:grey;
+}
+th{
+border:5px solid;
+background-color:lightpink;
+padding:5px 5px 5px 5px;
+}
+th,td{
+width:80px;
+}
+
+</style>
+</head>
+<body>
+<center><i><h2>Squares and cubes</h2></i></center>
+<script>
+document.write("<center><table><tr><th>Number</th><th>Squares</th><th>Cubes</th></tr>");
+for(var i=0;i<=10;i++)
+{
+document.write("<tr><td>"+i+"</td><td>"+i*i+"</td><td>"+i*i*i+"</td></tr>");
+}
+document.write("</table></center>");
+</script>
+</body>
+</html>
+
